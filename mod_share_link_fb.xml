@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module"
+	version="2.5" 
+	client="site" 
+	method="upgrade">
+	<name>MOD_SHARELINKFB</name>
+	<author>Bram Waasdorp</author>
+	<creationDate>October 2015</creationDate>
+	<copyright>Copyright (C) 2015 - 2018 A.H.C. Waasdorp. All rights reserved.</copyright>
+	<license>GNU General Public License version 3</license>
+	<authorEmail>info@waasdorpsoekhan.nl</authorEmail>
+	<authorUrl>www.waasdorpsoekhan.nl</authorUrl>
+	<version>1.0.2</version>
+	<description>MOD_SHARELINKFB_DESCRIPTION</description>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_share_link_fb.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_share_link_fb.sys.ini</language>
+		<language tag="nl-NL">language/nl-NL/nl-NL.mod_share_link_fb.ini</language>
+		<language tag="nl-NL">language/nl-NL/nl-NL.mod_share_link_fb.sys.ini</language>
+	</languages>
+	<files>
+		<filename module="mod_share_link_fb">mod_share_link_fb.php</filename>
+		<folder>tmpl</folder>
+		<filename>gpl3.txt</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_share_link_fb.xml</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="SCRIPTS">
+				<field name="slfbtitle" type="text" default="" 
+                                       	label="SLFB_TITLE_LABEL" description="SLFB_TITLE_DESCRIPTION" />
+				<field name="slfbsitename" type="text" default="" 
+                                       	label="SLFB_SITENAME_LABEL" description="SLFB_SITENEAME_DESCRIPTION" />
+				<field name="slfbdescription" type="textarea" rows="4" default="" 
+                                       	label="SLFB_DESCRIPTION_LABEL" description="SLFB_DESCRIPTION_DESCRIPTION" />
+				<field name="slfbappid" type="text" class="validate-numeric" default="" 
+                                       	label="SLFB_APPID_LABEL" description="SLFB_APPID_DESCRIPTION" />
+				<field name="slfbadmins" type="text"  default="" 
+                                       	label="SLFB_ADMINS_LABEL" description="SLFB_ADMINS_DESCRIPTION" />
+				<field name="slfbtype" type="list" 
+                                       	label="SLFB_TYPE_LABEL" description="SLFB_TYPE_DESCRIPTION">
+					<option value="article">SLFB_ARTICLE</option>
+					<option value="music.song">SLFB_MUSICSONG</option>
+					<option value="music.album">SLFB_MUSICALBUM</option>
+					<option value="music.playlist">SLFB_MUSICPLAYLIST</option>
+					<option value="website">SLFB_WEBSITE</option>
+					<option value="">SLFB_NTSPEC</option>
+				</field>
+				<field name="slfburl" type="text" default="" 
+                                       	label="SLFB_URL_LABEL" description="SLFB_URL_DESCRIPTION" />
+				<field name="slfbimage" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="slfbimage1" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth1"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight1"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="slfbimage2" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth2"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight2"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="slfbimage3" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth3"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight3"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="slfbimage4" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth4"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight4"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="script" type="textarea" filter="raw" default="" label="SLFB_TAGS_LABEL" rows="12" cols="50" description="SLFB_TAGS_DESCRIPTION" />
+				<field name="scriptuse" type="list" default="1" label="SLFB_SCRIPT_LABEL" description="SLFB_SCRIPT_DESCRIPTION">
+					<option value="1">JYES</option>
+					<option value="2">JNO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+    <updateservers>
+		<server type="collection" name="WaasdorpSoekhan extensions" ><![CDATA[http://www.waasdorpsoekhan.nl/update/waasdorpsoekhan_list.xml]]></server>
+	</updateservers>
+</extension>

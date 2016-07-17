@@ -1,0 +1,37 @@
+; $Id: nl-NL.mod_share_link_fb.ini 3.0
+; Joomla! Dutch Translation
+; Copyright (C) Translation 2015- 2022 A.H.C. Waasdorp 
+; License 
+; 
+COM_MODULES_SCRIPTS_FIELDSET_LABEL="Facebook graph en aanvullende code voor &lt; head &gt; section "
+SLFB_TITLE_LABEL="Titel"
+SLFB_TITLE_DESCRIPTION="Object, gelinkte pagina, titel"
+SLFB_SITENAME_LABEL="Sitenaam"
+SLFB_SITENEAME_DESCRIPTION="Naam van de site met het object"
+SLFB_DESCRIPTION_LABEL="Omschrijving"
+SLFB_DESCRIPTION_DESCRIPTION="Omschrijving van het object"
+SLFB_APPID_LABEL="Facebook App Id"
+SLFB_APPID_DESCRIPTION="Facebook App Id van deze website"
+SLFB_ADMINS_LABEL="Facebook Admins"
+SLFB_ADMINS_DESCRIPTION="Facebook Administrators (comma gescheiden lijst)"
+SLFB_TYPE_LABEL="Object type"
+SLFB_TYPE_DESCRIPTION="Type van dit open graph object"
+SLFB_ARTICLE="Artikel"
+SLFB_MUSICSONG="Muziek song"
+SLFB_MUSICALBUM="Muziek album"
+SLFB_MUSICPLAYLIST="Muziek playlist"
+SLFB_WEBSITE="Website"
+SLFB_NTSPEC="Niet gespecificeerd"
+SLFB_URL_LABEL="Canoniek adres (url)"
+SLFB_URL_DESCRIPTION="Canonieke adres (url) van het object (indien anders dan deze pagina)"
+SLFB_IMAGE_LABEL="Facebook afbeelding"
+SLFB_IMAGE_DESCRIPTION="Kies Facebook afbeelding voor het object"
+SLFB_WIDTH_LABEL="Breedte"
+SLFB_WIDTH_DESCRIPTION="Breedte afbeelding"
+SLFB_HEIGHT_LABEL="Hoogte"
+SLFB_HEIGHT_DESCRIPTION="Hoogte afbeelding"
+SLFB_SCRIPT_LABEL="Gebruik Scripts/ Head Tags"
+SLFB_SCRIPT_DESCRIPTION="Gebruik Scripts, of andere Head Tags"
+SLFB_TAGS_LABEL="Voeg extra FB open graph <br/>code, scripts of andere <br/>Head Tags in"
+SLFB_TAGS_DESCRIPTION="Kan de vorm hebben van:<br/> &lt; script type='text/javascript' &gt;my code here &lt;/script &gt; <br/> &lt; script type='text/css' src='myfile.js'&gt; &lt;/script &gt;<br/> &lt; style type='text/css' src='myfile.css'&gt; &lt;/style &gt;<br/> &lt; style type='text/css' &gt;my styles here &lt;/style &gt;<br/> &lt; meta  name=\"keywords\" content=\"\"  /&gt; <br/>&lt;!-- insert comment --&gt;"
+
