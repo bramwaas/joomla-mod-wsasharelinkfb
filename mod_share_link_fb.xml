@@ -5,12 +5,12 @@
 	method="upgrade">
 	<name>MOD_SHARELINKFB</name>
 	<author>Bram Waasdorp</author>
-	<creationDate>October 2015</creationDate>
+	<creationDate>04-08-2016</creationDate>
 	<copyright>Copyright (C) 2015 - 2018 A.H.C. Waasdorp. All rights reserved.</copyright>
 	<license>GNU General Public License version 3</license>
 	<authorEmail>info@waasdorpsoekhan.nl</authorEmail>
 	<authorUrl>www.waasdorpsoekhan.nl</authorUrl>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<description>MOD_SHARELINKFB_DESCRIPTION</description>
 	<languages>
 		<language tag="en-GB">language/en-GB/en-GB.mod_share_link_fb.ini</language>
@@ -109,6 +109,6 @@
 		</fields>
 	</config>
     <updateservers>
-		<server type="collection" name="WaasdorpSoekhan extensions" ><![CDATA[http://www.waasdorpsoekhan.nl/update/waasdorpsoekhan_list.xml]]></server>
+		<server type="extension" name="Module Share link in facebook" ><![CDATA[http://www.waasdorpsoekhan.nl/update/modsharelinkfb/mod_share_link_fb_update.xml]]></server>
 	</updateservers>
 </extension>
