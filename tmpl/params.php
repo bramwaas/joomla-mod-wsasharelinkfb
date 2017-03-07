@@ -43,6 +43,27 @@ if (substr( $slfbimage4, 0, 6 ) === "images" ) {$slfbimage4 = $root . $slfbimage
 $slfbwidth4=$params->get('slfbwidth4');
 $slfbheight4=$params->get('slfbheight4');
 
+$slfbimage5=$params->get('slfbimage5');
+if (substr( $slfbimage5, 0, 6 ) === "images" ) {$slfbimage5  = $root . $slfbimage5; };
+$slfbwidth5=$params->get('slfbwidth5');
+$slfbheight5=$params->get('slfbheight5');
+$slfbimage6=$params->get('slfbimage6');
+if (substr( $slfbimage6, 0, 6 ) === "images" ) {$slfbimage6 = $root . $slfbimage6;};
+$slfbwidth6=$params->get('slfbwidth6');
+$slfbheight6=$params->get('slfbheight6');
+$slfbimage7=$params->get('slfbimage7');
+if (substr( $slfbimage7, 0, 6 ) === "images" ) {$slfbimage7 = $root . $slfbimage7;};
+$slfbwidth7=$params->get('slfbwidth7');
+$slfbheight7=$params->get('slfbheight7');
+$slfbimage8=$params->get('slfbimage8');
+if (substr( $slfbimage8, 0, 6 ) === "images" ) {$slfbimage8 = $root . $slfbimage8;};
+$slfbwidth8=$params->get('slfbwidth8');
+$slfbheight8=$params->get('slfbheight8');
+$slfbimage9=$params->get('slfbimage9');
+if (substr( $slfbimage9, 0, 6 ) === "images" ) {$slfbimage9 = $root . $slfbimage9;};
+$slfbwidth9=$params->get('slfbwidth9');
+$slfbheight9=$params->get('slfbheight9');
+
 $script=$params->get('script');
 $scriptuse=$params->get('scriptuse');
 
