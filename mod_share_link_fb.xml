@@ -5,12 +5,12 @@
 	method="upgrade">
 	<name>MOD_SHARELINKFB</name>
 	<author>Bram Waasdorp</author>
-	<creationDate>04-08-2016</creationDate>
+	<creationDate>07-03-2017</creationDate>
 	<copyright>Copyright (C) 2015 - 2018 A.H.C. Waasdorp. All rights reserved.</copyright>
 	<license>GNU General Public License version 3</license>
 	<authorEmail>info@waasdorpsoekhan.nl</authorEmail>
 	<authorUrl>www.waasdorpsoekhan.nl</authorUrl>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<description>MOD_SHARELINKFB_DESCRIPTION</description>
 	<languages>
 		<language tag="en-GB">language/en-GB/en-GB.mod_share_link_fb.ini</language>
@@ -97,6 +97,56 @@
 					description="SLFB_WIDTH_DESCRIPTION"
 					 />
 				<field name="slfbheight4"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="slfbimage5" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth5"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight5"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="slfbimage6" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth6"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight6"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="slfbimage7" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth7"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight7"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="slfbimage8" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth8"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight8"   class="validate-numeric" type="text" default=""
+					label="SLFB_HEIGHT_LABEL"
+					description="SLFB_HEIGHT_DESCRIPTION"
+					 />
+				<field name="slfbimage9" type="media" default="" 
+                                       	label="SLFB_IMAGE_LABEL" description="SLFB_IMAGE_DESCRIPTION" />
+				<field name="slfbwidth9"   class="validate-numeric" type="text" default=""
+					label="SLFB_WIDTH_LABEL"
+					description="SLFB_WIDTH_DESCRIPTION"
+					 />
+				<field name="slfbheight9"   class="validate-numeric" type="text" default=""
 					label="SLFB_HEIGHT_LABEL"
 					description="SLFB_HEIGHT_DESCRIPTION"
 					 />
