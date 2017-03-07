@@ -179,6 +179,157 @@ $doc->addCustomTag( $output );
 // end slfbimage > ' '
 }
 ;
+if ($slfbimage5 > ' ')
+{$output = '<meta property="og:image" content="'.$slfbimage5.'"/>';
+
+$posdot = strripos(  $slfbimage5 ,  '.' );
+
+if ($posdot > 0)
+{
+$suffix = substr (  $slfbimage5 ,  $posdot);
+if ($suffix == '.bmp')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/bmp" />';}
+elseif ($suffix == '.gif')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/gif" />';}
+elseif ($suffix == '.jpg')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/jpeg" />';}
+elseif ($suffix == '.png')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/png" />';}
+;
+// end posdot > 0
+};
+
+if ($slfbwidth5 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:width" content="'.$slfbwidth5.'"/>';}	
+;
+if ($slfbheight5 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:height" content="'.$slfbheight5.'"/>';}	
+;
+$doc->addCustomTag( $output );
+// end slfbimage5 > ' '
+}
+;
+if ($slfbimage6 > ' ')
+{$output = '<meta property="og:image" content="'.$slfbimage6.'"/>';
+
+$posdot = strripos(  $slfbimage6 ,  '.' );
+
+if ($posdot > 0)
+{
+$suffix = substr (  $slfbimage6 ,  $posdot);
+if ($suffix == '.bmp')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/bmp" />';}
+elseif ($suffix == '.gif')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/gif" />';}
+elseif ($suffix == '.jpg')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/jpeg" />';}
+elseif ($suffix == '.png')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/png" />';}
+;
+// end posdot > 0
+};
+
+if ($slfbwidth6 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:width" content="'.$slfbwidth6.'"/>';}	
+;
+if ($slfbheight6 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:height" content="'.$slfbheight6.'"/>';}	
+;
+$doc->addCustomTag( $output );
+// end slfbimage > ' '
+}
+;
+if ($slfbimage7 > ' ')
+{$output = '<meta property="og:image" content="'.$slfbimage7.'"/>';
+
+$posdot = strripos(  $slfbimage7 ,  '.' );
+
+if ($posdot > 0)
+{
+$suffix = substr (  $slfbimage7 ,  $posdot);
+if ($suffix == '.bmp')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/bmp" />';}
+elseif ($suffix == '.gif')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/gif" />';}
+elseif ($suffix == '.jpg')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/jpeg" />';}
+elseif ($suffix == '.png')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/png" />';}
+;
+// end posdot > 0
+};
+
+if ($slfbwidth7 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:width" content="'.$slfbwidth7.'"/>';}	
+;
+if ($slfbheight7 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:height" content="'.$slfbheight7.'"/>';}	
+;
+$doc->addCustomTag( $output );
+// end slfbimage > ' '
+}
+;
+if ($slfbimage8 > ' ')
+{$output = '<meta property="og:image" content="'.$slfbimage8.'"/>';
+
+$posdot = strripos(  $slfbimage8 ,  '.' );
+
+if ($posdot > 0)
+{
+$suffix = substr (  $slfbimage8 ,  $posdot);
+if ($suffix == '.bmp')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/bmp" />';}
+elseif ($suffix == '.gif')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/gif" />';}
+elseif ($suffix == '.jpg')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/jpeg" />';}
+elseif ($suffix == '.png')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/png" />';}
+;
+// end posdot > 0
+};
+
+if ($slfbwidth8 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:width" content="'.$slfbwidth8.'"/>';}	
+;
+if ($slfbheight8 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:height" content="'.$slfbheight8.'"/>';}	
+;
+$doc->addCustomTag( $output );
+// end slfbimage > ' '
+}
+;
+if ($slfbimage9 > ' ')
+{$output = '<meta property="og:image" content="'.$slfbimage9.'"/>';
+
+$posdot = strripos(  $slfbimage9 ,  '.' );
+
+if ($posdot > 0)
+{
+$suffix = substr (  $slfbimage9 ,  $posdot);
+if ($suffix == '.bmp')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/bmp" />';}
+elseif ($suffix == '.gif')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/gif" />';}
+elseif ($suffix == '.jpg')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/jpeg" />';}
+elseif ($suffix == '.png')
+    {$output = $output."\n\t".'<meta property="og:image:type" content="image/png" />';}
+;
+// end posdot > 0
+};
+
+if ($slfbwidth9 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:width" content="'.$slfbwidth9.'"/>';}	
+;
+if ($slfbheight9 > ' ')
+{$output = $output."\n\t".'<meta property="og:image:height" content="'.$slfbheight9.'"/>';}	
+;
+$doc->addCustomTag( $output );
+// end slfbimage > ' '
+}
+;
+;
 if ($scriptuse==1){$doc->addCustomTag( $script );}
 ;
 
