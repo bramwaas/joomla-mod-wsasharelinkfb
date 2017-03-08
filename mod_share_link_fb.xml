@@ -28,7 +28,7 @@
 	</files>
 	<config>
 		<fields name="params">
-			<fieldset name="SCRIPTS">
+			<fieldset name="SLFB_OGP">
 				<field name="slfbtitle" type="text" default="" 
                                        	label="SLFB_TITLE_LABEL" description="SLFB_TITLE_DESCRIPTION" />
 				<field name="slfbsitename" type="text" default="" 
@@ -150,6 +150,8 @@
 					label="SLFB_HEIGHT_LABEL"
 					description="SLFB_HEIGHT_DESCRIPTION"
 					 />
+			</fieldset>	
+			<fieldset name="SCRIPTS">
 				<field name="script" type="textarea" filter="raw" default="" label="SLFB_TAGS_LABEL" rows="12" cols="50" description="SLFB_TAGS_DESCRIPTION" />
 				<field name="scriptuse" type="list" default="1" label="SLFB_SCRIPT_LABEL" description="SLFB_SCRIPT_DESCRIPTION">
 					<option value="1">JYES</option>
