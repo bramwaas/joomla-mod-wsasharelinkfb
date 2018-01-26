@@ -14,6 +14,11 @@ include('params.php');
 
 
 //add custom tags to head section
+//Starting from Joomla 3.6 you can add 'property' attribute using setMetaData
+//$doc = JFactory::getDocument();
+//$doc->setMetaData('og:image', 'https://cdn.joomla.org/images/Joomla_logo.png', 'property');
+//Reference : https://github.com/joomla/joomla-cms/pull/10682
+
 if ($slfbtitle > ' ') {$doc->addCustomTag( '<meta property="og:title" content="'.$slfbtitle.'"/>' );};
 
 if ($slfbsitename > ' ') {$doc->addCustomTag( '<meta property="og:site_name" content="'.$slfbsitename.'"/>' );};
