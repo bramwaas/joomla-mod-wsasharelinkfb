@@ -3,6 +3,7 @@
 	<name>joomla-mod-wsasharelinkfb</name>
 	<comment></comment>
 	<projects>
+		<project>joomla-cms</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

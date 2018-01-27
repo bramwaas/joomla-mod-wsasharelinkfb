@@ -5,14 +5,17 @@
  * @package   mod_share_link_fb
  * @copyright Copyright (C) 2015 - 2018 AHC Waasdorp. All rights reserved.
  * @license GPL3
+ * 2018-01-27 2.0.0 j3.8 Namespace en code optimalisaties
  */
 
 // no direct access
 defined('_JEXEC') or die;
+use Joomla\CMS\Uri\Uri;
+
 
 //Collect Parameters
 
-$root=JURI::root();
+$root=Uri::root();
 $slfbtitle=$params->get('slfbtitle');
 $slfbsitename=$params->get('slfbsitename');
 $slfbdescription=$params->get('slfbdescription');
