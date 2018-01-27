@@ -167,6 +167,6 @@
 		</fields>
 	</config>
     <updateservers>
-		<server type="extension" name="Module Share link in facebook" ><![CDATA[http://www.waasdorpsoekhan.nl/update/modsharelinkfb/mod_share_link_fb_update.xml]]></server>
+		<server type="extension" name="Module Share link in facebook" ><![CDATA[https://www.waasdorpsoekhan.nl/update/modsharelinkfb/mod_share_link_fb_update.xml]]></server>
 	</updateservers>
 </extension>
