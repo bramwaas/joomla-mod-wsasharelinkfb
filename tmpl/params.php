@@ -6,6 +6,7 @@
  * @copyright Copyright (C) 2015 - 2018 AHC Waasdorp. All rights reserved.
  * @license GPL3
  * 2018-01-27 2.0.0 j3.8 Namespace en code optimalisaties
+ * 2024-05-06 2.0.1 j5 error 0 - Class "JURI" not found
  */
 
 // no direct access
@@ -23,7 +24,7 @@ $slfbappid=$params->get('slfbappid');
 $slfbadmins=$params->get('slfbadmins');
 $slfbtype=$params->get('slfbtype');
 $slfburl=$params->get('slfburl');
-if ($slfburl == ''){$slfburl = JURI::getInstance()->toString();};
+if ($slfburl == ''){$slfburl = Uri::getInstance()->toString();};
 
 $slfbimage=$params->get('slfbimage');
 if (substr( $slfbimage, 0, 6 ) === "images" ) {$slfbimage  = $root . $slfbimage; };
