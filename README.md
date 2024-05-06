@@ -12,5 +12,6 @@ This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-lic
 
 ## Changelog
 
+* 2.0.1 Solve issue missing class JURI in Joomla 5
 * 2.0.0 Using  Joomla 3.8 and up Namespaces minimum Joomla 3.8 Php 5.3
 * 1.0.0 initial 2015-10-07 inspired by (partly copied from) Blank Module 250 by Bob Galway
