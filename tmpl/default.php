@@ -9,13 +9,13 @@
  * 	$doc = JFactory::getDocument();
  * 	$doc->setMetaData('og:image', 'https://cdn.joomla.org/images/Joomla_logo.png', 'property');
  * 	Reference : https://github.com/joomla/joomla-cms/pull/10682
+ * 2.1.0 use serviceprovider; $doc from $app instead of Factory.
  */
 // no direct access
 defined ( '_JEXEC' ) or die ();
-use Joomla\CMS\Factory;
 require ('params.php');
 
-$doc = Factory::getDocument ();
+$doc = $app->getDocument();
 
 // add meta properties and custom tags to head section
 if ($slfbtitle > ' ') {
