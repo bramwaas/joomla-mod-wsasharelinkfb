@@ -4,7 +4,7 @@
  * @package     sharelinkfb
  * @subpackage  mod_share_link_fb
  *
- * @copyright   Copyright (C) 2022 -2024 A.H.C. Waasdorp, All rights reserved.
+ * @copyright   Copyright (C) 2024 -2024 A.H.C. Waasdorp, All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -17,9 +17,9 @@ use Joomla\DI\Container;
 use Joomla\DI\ServiceProviderInterface;
 
 /**
- * The popular articles module service provider.
+ * The Share link facebook module service provider.
  *
- * @since  4.3.0
+ * @since  2.1.0
  */
 return new class () implements ServiceProviderInterface {
     /**
@@ -29,7 +29,7 @@ return new class () implements ServiceProviderInterface {
      *
      * @return  void
      *
-     * @since   4.3.0
+     * @since   2.1.0
      */
     public function register(Container $container)
     {
