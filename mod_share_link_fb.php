@@ -10,7 +10,9 @@
 
 // no direct access
 defined('_JEXEC') or die;
+use Joomla\CMS\Factory;
 use Joomla\CMS\Helper\ModuleHelper;
+$app = Factory::getApplication();
 require_once dirname(__FILE__).'/helper.php';
 require ModuleHelper::getLayoutPath('mod_share_link_fb', $params->get('layout', 'default'));
 ?>

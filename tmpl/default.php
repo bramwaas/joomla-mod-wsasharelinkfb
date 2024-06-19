@@ -9,13 +9,17 @@
  * 	$doc = JFactory::getDocument();
  * 	$doc->setMetaData('og:image', 'https://cdn.joomla.org/images/Joomla_logo.png', 'property');
  * 	Reference : https://github.com/joomla/joomla-cms/pull/10682
+ * 2.1.0 use serviceprovider; $doc from $app instead of Factory.
  */
 // no direct access
 defined ( '_JEXEC' ) or die ();
-use Joomla\CMS\Factory;
 require ('params.php');
 
-$doc = Factory::getDocument ();
+$doc = $app->getDocument();
+unset($wa);
+if (version_compare(JVERSION, '4.0', '>=')) { // J4 code stylesheets and javascript addStyleSheet etc for J4
+    $wa  = $doc->getWebAssetManager();
+}
 
 // add meta properties and custom tags to head section
 if ($slfbtitle > ' ') {
@@ -238,10 +242,18 @@ if ($slfbimage9 > ' ') {
 	// end slfbimage > ' '
 }
 
-if ($scriptuse == 1) {
-	$doc->addCustomTag ( $script );
+if (1 == $scriptuse && (! empty($script))) {
+    /* not yet, because script can also contain other custom meta tags.
+    if (! empty($wa)){
+        $wa->addInlineScript(
+            $script,
+            [], [],[]
+            );
+    }
+    else 
+    */
+        $doc->addCustomTag ( $script );
 }
-;
 
-?>
+
 
