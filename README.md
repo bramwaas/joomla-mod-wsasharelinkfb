@@ -21,11 +21,11 @@ This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-lic
 * Also makes it possible to incude a custom script in the head.
 
 ## Upgrade Notice    
-* from 2024 (v2.1.0) requires Joomla 4, php 7.4.
+* from 2024 (v2.1.0) requires Joomla 4, php 7.4 (it may work in Joomla 3.8+ with the old module model the old code is not thrown away yet)
 
 ## Changelog
 
-* 2.1.0 use serviceprovider model;
+* 2.1.0 use serviceprovider model for Joomla 4 and up.   
 * 2.0.1 Solve issue missing class JURI in Joomla 5
 * 2.0.0 Using  Joomla 3.8 and up Namespaces minimum Joomla 3.8 Php 5.3
 * 1.0.0 initial 2015-10-07 inspired by (partly copied from) Blank Module 250 by Bob Galway

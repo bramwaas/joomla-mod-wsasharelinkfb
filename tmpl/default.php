@@ -16,6 +16,10 @@ defined ( '_JEXEC' ) or die ();
 require ('params.php');
 
 $doc = $app->getDocument();
+unset($wa);
+if (version_compare(JVERSION, '4.0', '>=')) { // J4 code stylesheets and javascript addStyleSheet etc for J4
+    $wa  = $doc->getWebAssetManager();
+}
 
 // add meta properties and custom tags to head section
 if ($slfbtitle > ' ') {
@@ -238,10 +242,18 @@ if ($slfbimage9 > ' ') {
 	// end slfbimage > ' '
 }
 
-if ($scriptuse == 1) {
-	$doc->addCustomTag ( $script );
+if (1 == $scriptuse && (! empty($script))) {
+    /* not yet, because script can also contain other custom meta tags.
+    if (! empty($wa)){
+        $wa->addInlineScript(
+            $script,
+            [], [],[]
+            );
+    }
+    else 
+    */
+        $doc->addCustomTag ( $script );
 }
-;
 
-?>
+
 
