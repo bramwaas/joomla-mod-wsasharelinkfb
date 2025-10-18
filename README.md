@@ -7,14 +7,14 @@ Module name: Sharelinkfb
 Contributors: bramwaas    
 Tags: facebook    
 Requires at least Joomla: 4.0   
-Tested up to: 5.0.3    
+Tested up to: 6.0    
 Requires PHP: 7    
 Stable tag: trunk    
    
 ## Copyright and License
 
 This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
-2017&thinsp;&ndash;&thinsp;2024 &copy; [Bram Waasdorp](http://www.waasdorpsoekhan.nl).
+2017&thinsp;&ndash;&thinsp;2025 &copy; [Bram Waasdorp](http://www.waasdorpsoekhan.nl).
 
 ## Documentation
 * Includes Facebook Opengraph metatags in header, with a selection of pictures to display in a link from Facebook. 
@@ -24,7 +24,7 @@ This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-lic
 * from 2024 (v2.1.0) requires Joomla 4, php 7.4 (it may work in Joomla 3.8+ with the old module model the old code is not thrown away yet)
 
 ## Changelog
-
+* 2.1.1  solve Deprecated: substr(): Passing null to parameter #1 ($string) of type string is deprecated
 * 2.1.0 use serviceprovider model for Joomla 4 and up.   
 * 2.0.1 Solve issue missing class JURI in Joomla 5
 * 2.0.0 Using  Joomla 3.8 and up Namespaces minimum Joomla 3.8 Php 5.3
