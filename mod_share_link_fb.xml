@@ -4,17 +4,17 @@
 	method="upgrade">
 	<compatibility>
       <include>
-       <versions from="4.0.0" to="5.99.99" />
+       <versions from="4.0.0" to="6.99.99" />
       </include>
     </compatibility>
 	<name>MOD_SHARELINKFB</name>
 	<author>Bram Waasdorp</author>
-	<creationDate>19-06-2024</creationDate>
-	<copyright>Copyright (C) 2015 - 2024 A.H.C. Waasdorp. All rights reserved.</copyright>
+	<creationDate>17-10-2025</creationDate>
+	<copyright>Copyright (C) 2015 - 2025 A.H.C. Waasdorp. All rights reserved.</copyright>
 	<license>GNU General Public License version 3</license>
 	<authorEmail>info@waasdorpsoekhan.nl</authorEmail>
 	<authorUrl>www.waasdorpsoekhan.nl</authorUrl>
-	<version>2.1.0</version>
+	<version>2.1.1</version>
 	<description>MOD_SHARELINKFB_DESCRIPTION</description>
 	<namespace path="src">WaasdorpSoekhan\Module\Sharelinkfb</namespace>
 	<languages>
